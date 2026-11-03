@@ -84,7 +84,12 @@ bright slots for small text.
 
 The two horizon variants are colour-graded at the source resolution, not
 resized or upscaled: the light version maps to `#F0EDE5` and `#0762B4`, the
-dark version to `#161616` and `#33B1FF`.
+dark version to `#1A1A18` and `#4694EA`, which are the T2 dark endpoints.
+
+Each regrade keeps the pixel's mix factor, so the tone curve of the source is
+untouched. `alt-backgrounds/oxcarbondark-omarchy.png` moved from `#161616` and
+`#33B1FF` to the same endpoints. The `BG*` files are original artwork and keep
+their own colours.
 
 Cycle through the theme backgrounds with `omarchy-theme-bg-next`.
 
