@@ -1,4 +1,4 @@
--- Mirrors hyprland.conf — H1 Light (iliFalk/h1-design-system).
+-- Mirrors hyprland.conf — T1 Light.
 -- Keep both files in step: Omarchy 4.5 reads the Lua form when Hyprland runs with Lua config.
 
 hl.config({

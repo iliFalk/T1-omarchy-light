@@ -1,32 +1,32 @@
 # T1 Light — development
 
-The palette, the terminal hues, the themed surfaces, the backgrounds and the credits.
+The palette, the terminal slots, the themed surfaces, the backgrounds and the credits.
 
 The install and use steps sit in the [README](../README.md).
 
 ## Palette
 
-| Role | H1 token | Hex | Colour name |
-|---|---|---|---|
-| Background | `--h1-bg` | `#F0EDE5` | Warm off-white / ivory |
-| Surface | `--h1-surface` | `#E8E4D9` | Sand / warm grey |
-| Elevated | `--h1-elevated` | `#FFFFFF` | White |
-| Field | `--h1-field` | `#FFFFFF` | White |
-| Hover | `--h1-hover` | `#DDD8CA` | Stone / light taupe |
-| Line | `--h1-line` | `#DDD8CA` | Stone / light taupe |
-| Text | `--h1-fg` | `#1A1A18` | Ink / near-black |
-| Muted | `--h1-muted` | `#4A4A46` | Charcoal |
-| Helper | `--h1-helper` | `#5D5D5A` | Dark grey |
-| Placeholder | `--h1-placeholder` | `#6B6B69` | Mid grey |
-| Disabled | `--h1-disabled` | `#8A8A87` | Neutral grey |
-| Accent (fill) | `--h1-accent` | `#0762B4` | Steel blue |
-| Accent (text/link) | `--h1-accent-text` | `#0762B4` | Steel blue |
-| On accent | `--h1-on-accent` | `#FFFFFF` | White |
-| Accent press | `--h1-accent-press` | `#0D4B82` | Deep steel blue |
-| Success | `--h1-success` | `#1A6543` | Forest green |
-| Error | `--h1-error` | `#BF3922` | Terracotta / brick |
-| Error text | `--h1-error-text` | `#8A1C0E` | Chestnut / dark red |
-| Press | `--h1-press` | `#C5C3BE` | Pebble / warm grey |
+| Role | Hex | Colour name |
+|---|---|---|
+| Background | `#F0EDE5` | Warm off-white / ivory |
+| Surface | `#E8E4D9` | Sand / warm grey |
+| Elevated | `#FFFFFF` | White |
+| Field | `#FFFFFF` | White |
+| Hover | `#DDD8CA` | Stone / light taupe |
+| Line | `#DDD8CA` | Stone / light taupe |
+| Text | `#1A1A18` | Ink / near-black |
+| Muted | `#4A4A46` | Charcoal |
+| Helper | `#5D5D5A` | Dark grey |
+| Placeholder | `#6B6B69` | Mid grey |
+| Disabled | `#8A8A87` | Neutral grey |
+| Accent (fill) | `#0762B4` | Steel blue |
+| Accent (text/link) | `#0762B4` | Steel blue |
+| On accent | `#FFFFFF` | White |
+| Accent press | `#0D4B82` | Deep steel blue |
+| Success | `#1A6543` | Forest green |
+| Error | `#BF3922` | Terracotta / brick |
+| Error text | `#8A1C0E` | Chestnut / dark red |
+| Press | `#C5C3BE` | Pebble / warm grey |
 
 The accent `#0762B4` reaches **5.26:1** on `#F0EDE5`, so one accent step
 serves both the fill and the text role. White on the accent reaches
@@ -37,7 +37,7 @@ serves both the fill and the text role. White on the accent reaches
 
 ## Terminal
 
-The terminal uses the H1 semantic colors as ANSI slots:
+The terminal uses the T1 semantic colors as ANSI slots:
 
 | Slot | Hex | Colour name |
 |---|---|---|
@@ -71,14 +71,14 @@ bright slots for small text.
 - Terminals: Alacritty, Ghostty, Kitty, Foot (generated from `colors.toml`)
 - btop, cava, fish, fzf, superfile
 - GTK, Steam, Discord/Vencord, Zed, Chromium and Zen take the same palette:
-  the base16 slots of those files carry the H1 background, surface, text and
+  the base16 slots of those files carry the T1 background, surface, text and
   eight semantic colors.
 
 ## Backgrounds
 
-- `backgrounds/1-horisont.png` — H1-toned horizon, native 6016×3384 (default)
+- `backgrounds/1-horisont.png` — T1-toned horizon, native 6016×3384 (default)
 - `backgrounds/ascii-art.png` — coloured ASCII halftone flow
-- `backgrounds/light.jpg` — warm H1 gradient
+- `backgrounds/light.jpg` — warm T1 gradient
 - `alt-backgrounds/` — original Oxocarbon dark wallpapers and the dark-toned
   horizon (`1-horisont-dark.png`)
 
@@ -101,8 +101,8 @@ local (non-git) directory.
 
 - Original **Oxocarbon Dark** theme by
   [HANCORE-linux](https://github.com/HANCORE-linux/omarchy-oxocarbon-theme)
-- **H1 design system** palette by
-  [iliFalk](https://github.com/iliFalk/h1-design-system)
+- The palette follows the **T1 design system**, published as
+  [iliFalk/h1-design-system](https://github.com/iliFalk/h1-design-system)
 - Theme structure generated with
   [Omarchist](https://github.com/tahayvr/omarchist) by
   [Taha](https://github.com/tahayvr)
