@@ -2,7 +2,7 @@
 
 A light theme for Omarchy, built on the T1 palette.
 
-![The light desktop with the T1 horizon wallpaper](preview.png)
+![T1 Light on its horizon wallpaper](preview.png)
 
 - **What it is:** a light theme for Omarchy, the Arch Linux desktop.
 - **What it does:** paints the shell, the bar, the launcher, the notifications and the terminals in warm off-white with a steel-blue accent. Without it the screen stays dark and hard to read in daylight.
@@ -37,7 +37,7 @@ To keep a frozen copy instead, download the archive, unpack it into `~/.config/o
 | `backgrounds/`, `alt-backgrounds/` | The wallpapers the theme offers. |
 | `custom_theme.json` | The same palette in the theme editor's format. |
 | `waybar.css`, `mako.ini`, `walker.css`, `swayosd.css` | The bar, the notifications, the launcher and the volume overlay. |
-| `preview.png` | The picture above. |
+| `preview.png` | A composition of these surfaces on the shipped wallpaper, not a screen capture. |
 
 ## Docs
 
