@@ -1,4 +1,4 @@
-# Oxocarbon Light — development
+# T1 Light — development
 
 The palette, the terminal hues, the themed surfaces, the backgrounds and the credits.
 
@@ -83,7 +83,7 @@ bright slots for small text.
   horizon (`1-horisont-dark.png`)
 
 The two horizon variants are colour-graded at the source resolution, not
-resized or upscaled: the light version maps to `#F0EDE5` and `#0078B3`, the
+resized or upscaled: the light version maps to `#F0EDE5` and `#0762B4`, the
 dark version to `#161616` and `#33B1FF`.
 
 Cycle through the theme backgrounds with `omarchy-theme-bg-next`.

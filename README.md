@@ -1,26 +1,26 @@
-# Oxocarbon Light
+# T1 Omarchy Light
 
-A light variant of the Oxocarbon theme for Omarchy, built on a warm off-white palette.
+A light theme for Omarchy, built on the H1 palette.
 
 ![The light desktop with the H1 horizon wallpaper](preview.png)
 
 - **What it is:** a light theme for Omarchy, the Arch Linux desktop.
 - **What it does:** applies the H1 light palette to warm off-white surfaces, with a steel-blue accent and readable semantic colors in the terminal. Without it the screen stays dark and hard to read in daylight.
 - **What it needs:** Omarchy on Arch Linux. Nothing else.
-- **How to start:** run `omarchy-theme-install https://github.com/iliFalk/omarchy-oxocarbon-theme-light.git`. It clones the theme and applies it at once.
+- **How to start:** run `omarchy-theme-install https://github.com/iliFalk/T1-omarchy-light.git`. It clones the theme and applies it at once.
 
 ## Install
 
-1. Run `omarchy-theme-install https://github.com/iliFalk/omarchy-oxocarbon-theme-light.git`. It clones the theme to `~/.config/omarchy/themes/oxocarbon-theme-light` and applies it.
-2. To apply it again later, run `omarchy-theme-set oxocarbon-theme-light`.
+1. Run `omarchy-theme-install https://github.com/iliFalk/T1-omarchy-light.git`. It clones the theme to `~/.config/omarchy/themes/t1-omarchy-light` and applies it.
+2. To apply it again later, run `omarchy-theme-set t1-omarchy-light`.
 
-Omarchy names the theme after the repository, so the theme menu lists it as **Oxocarbon Theme Light**.
+Omarchy takes the theme name from the repository address: it drops a leading `omarchy-` and a trailing `-theme`, then makes the name lower case. Neither applies here, so the theme installs as **t1-omarchy-light**.
 
 ## Use
 
 | Where | What it does |
 |---|---|
-| Theme menu | **Oxocarbon Theme Light** applies the light palette to the shell, the bar, the launcher and the notifications. |
+| Theme menu | **t1-omarchy-light** applies the light palette to the shell, the bar, the launcher and the notifications. |
 | Terminal | Alacritty, Ghostty, Kitty and Foot take the H1 ANSI hues on the warm ground. |
 | Backgrounds | `backgrounds/` holds the three light wallpapers, `alt-backgrounds/` the dark ones from the original theme. |
 | `omarchy-theme-bg-next` | Cycles through the theme backgrounds. |
