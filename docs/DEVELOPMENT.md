@@ -19,42 +19,48 @@ The install and use steps sit in the [README](../README.md).
 | Helper | `--h1-helper` | `#5D5D5A` | Dark grey |
 | Placeholder | `--h1-placeholder` | `#6B6B69` | Mid grey |
 | Disabled | `--h1-disabled` | `#8A8A87` | Neutral grey |
-| Accent (fill) | `--h1-accent` | `#0078B3` | Steel blue / petrol |
-| Accent (text/link) | `--h1-accent-text` | `#00638F` | Dark steel blue |
+| Accent (fill) | `--h1-accent` | `#0762B4` | Steel blue |
+| Accent (text/link) | `--h1-accent-text` | `#0762B4` | Steel blue |
 | On accent | `--h1-on-accent` | `#FFFFFF` | White |
-| Accent hover | `--h1-accent-hover` | `#00638F` | Dark steel blue |
-| Accent press | `--h1-accent-press` | `#004C6D` | Deep petrol |
+| Accent press | `--h1-accent-press` | `#0D4B82` | Deep steel blue |
 | Success | `--h1-success` | `#1A6543` | Forest green |
 | Error | `--h1-error` | `#BF3922` | Terracotta / brick |
 | Error text | `--h1-error-text` | `#8A1C0E` | Chestnut / dark red |
 | Press | `--h1-press` | `#C5C3BE` | Pebble / warm grey |
 
-`#00638F` is used for accent text and links: it reaches **5.64:1** on
-`#F0EDE5` (WCAG AA), while the H1 accent `#0078B3` stays the fill/border
-colour. White on `#0078B3` reaches **4.84:1**.
+The accent `#0762B4` reaches **5.26:1** on `#F0EDE5`, so one accent step
+serves both the fill and the text role. White on the accent reaches
+**6.15:1**. Both values pass WCAG AA for normal text.
+
+`#0D4B82` is the only derived accent step: the accent mixed 32 % toward
+`#1A1A18`, used for a pressed control.
 
 ## Terminal
 
-The terminal keeps the Oxocarbon ANSI hues on the warm H1 ground:
+The terminal uses the H1 semantic colors as ANSI slots:
 
 | Slot | Hex | Colour name |
 |---|---|---|
 | black | `#F0EDE5` | Warm off-white |
-| red | `#005D5D` | Petrol / dark teal |
-| green | `#0072C3` | Ocean blue |
-| yellow | `#9F1853` | Berry / dark magenta |
-| blue | `#0E6027` | Forest green |
+| red | `#BF3922` | Terracotta |
+| green | `#237F52` | Forest green |
+| yellow | `#8A6100` | Ochre |
+| blue | `#0762B4` | Steel blue |
 | magenta | `#6929C4` | Violet |
-| cyan | `#D02670` | Pink / fuchsia |
+| cyan | `#005D5D` | Petrol / dark teal |
 | white | `#1A1A18` | Ink |
 | bright black | `#5D5D5A` | Dark grey |
-| bright red | `#0043CE` | Cobalt blue |
-| bright green | `#D02670` | Pink / fuchsia |
-| bright yellow | `#6929C4` | Violet |
-| bright blue | `#525252` | Graphite |
-| bright magenta | `#1A1A18` | Ink |
-| bright cyan | `#1192E8` | Sky blue |
-| bright white | `#005D5D` | Petrol / dark teal |
+| bright red | `#A51D2D` | Deep brick |
+| bright green | `#1A6543` | Deep forest green |
+| bright yellow | `#765600` | Deep ochre |
+| bright blue | `#055094` | Deep steel blue |
+| bright magenta | `#5F259F` | Deep violet |
+| bright cyan | `#005D70` | Deep petrol |
+| bright white | `#1A1A18` | Ink |
+
+The green slot `#237F52` reaches 4.24:1 on the background, below the 4.5:1
+that WCAG AA asks for normal text. The deep steps carry that load: use the
+bright slots for small text.
 
 ## What is themed
 
@@ -64,8 +70,9 @@ The terminal keeps the Oxocarbon ANSI hues on the warm H1 ground:
 - Mako, Walker, SwayOSD, Waybar
 - Terminals: Alacritty, Ghostty, Kitty, Foot (generated from `colors.toml`)
 - btop, cava, fish, fzf, superfile
-- GTK, Steam, Discord/Vencord, Zed, Chromium/Zen files are included with a
-  neutral light palette and can be adapted to H1 separately.
+- GTK, Steam, Discord/Vencord, Zed, Chromium and Zen take the same palette:
+  the base16 slots of those files carry the H1 background, surface, text and
+  eight semantic colors.
 
 ## Backgrounds
 

@@ -5,7 +5,7 @@ A light variant of the Oxocarbon theme for Omarchy, built on a warm off-white pa
 ![The light desktop with the H1 horizon wallpaper](preview.png)
 
 - **What it is:** a light theme for Omarchy, the Arch Linux desktop.
-- **What it does:** turns the Oxocarbon palette into warm off-white surfaces with steel-blue accents, and keeps the original Oxocarbon hues in the terminal. Without it the screen stays dark and hard to read in daylight.
+- **What it does:** applies the H1 light palette to warm off-white surfaces, with a steel-blue accent and readable semantic colors in the terminal. Without it the screen stays dark and hard to read in daylight.
 - **What it needs:** Omarchy on Arch Linux. Nothing else.
 - **How to start:** run `omarchy-theme-install https://github.com/iliFalk/omarchy-oxocarbon-theme-light.git`. It clones the theme and applies it at once.
 
@@ -21,7 +21,7 @@ Omarchy names the theme after the repository, so the theme menu lists it as **Ox
 | Where | What it does |
 |---|---|
 | Theme menu | **Oxocarbon Theme Light** applies the light palette to the shell, the bar, the launcher and the notifications. |
-| Terminal | Alacritty, Ghostty, Kitty and Foot take the Oxocarbon ANSI hues on the warm ground. |
+| Terminal | Alacritty, Ghostty, Kitty and Foot take the H1 ANSI hues on the warm ground. |
 | Backgrounds | `backgrounds/` holds the three light wallpapers, `alt-backgrounds/` the dark ones from the original theme. |
 | `omarchy-theme-bg-next` | Cycles through the theme backgrounds. |
 

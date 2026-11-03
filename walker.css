@@ -3,7 +3,7 @@
  * ────────────────────────────────────────────────────────────
  */
 
-@define-color selected-text #00638f;
+@define-color selected-text #0762B4;
 @define-color text #1a1a18;
 @define-color base #ffffff;
 @define-color border #ddd8ca;
@@ -44,12 +44,12 @@ window .box-wrapper {
 }
 
 window .search-container {
-    border: 1.5px solid alpha(#0078b3, 0.25);
+    border: 1.5px solid alpha(#0762B4, 0.25);
     border-radius: 4px;
     padding: 4px 6px;
     margin: 0;
     background: alpha(@base, 0.8);
-    box-shadow: inset 0 0 4px alpha(#0078b3, 0.05);
+    box-shadow: inset 0 0 4px alpha(#0762B4, 0.05);
     backdrop-filter: blur(1px);
 }
 

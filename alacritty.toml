@@ -1,36 +1,36 @@
 # ────────────────────────────────────────────────────────────
-# Alacritty — H1 ground, Oxocarbon ANSI
+# Alacritty — H1 Light (iliFalk/h1-design-system)
 # ────────────────────────────────────────────────────────────
 
 [colors]
 [colors.primary]
-background = "#f0ede5"
-foreground = "#1a1a18"
+background = "#F0EDE5"
+foreground = "#1A1A18"
 
 [colors.cursor]
-text = "#f0ede5"
-cursor = "#1a1a18"
+text = "#F0EDE5"
+cursor = "#1A1A18"
 
 [colors.selection]
-text = "#1a1a18"
-background = "#ddd8ca"
+text = "#1A1A18"
+background = "#DDD8CA"
 
 [colors.normal]
-black = "#f0ede5"
-red = "#005d5d"
-green = "#0072c3"
-yellow = "#9f1853"
-blue = "#0e6027"
-magenta = "#6929c4"
-cyan = "#d02670"
-white = "#1a1a18"
+black = "#F0EDE5"
+red = "#BF3922"
+green = "#237F52"
+yellow = "#8A6100"
+blue = "#0762B4"
+magenta = "#6929C4"
+cyan = "#005D5D"
+white = "#1A1A18"
 
 [colors.bright]
-black = "#5d5d5a"
-red = "#0043ce"
-green = "#d02670"
-yellow = "#6929c4"
-blue = "#525252"
-magenta = "#1a1a18"
-cyan = "#1192e8"
-white = "#005d5d"
+black = "#5D5D5A"
+red = "#A51D2D"
+green = "#1A6543"
+yellow = "#765600"
+blue = "#055094"
+magenta = "#5F259F"
+cyan = "#005D70"
+white = "#1A1A18"
