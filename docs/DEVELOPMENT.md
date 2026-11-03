@@ -93,6 +93,16 @@ their own colours.
 
 Cycle through the theme backgrounds with `omarchy-theme-bg-next`.
 
+### Motion in the wallpaper
+
+The horizon wallpapers are long exposures: every point of light carries a 380-pixel trail along x,
+with a full-brightness head and a linear tail, and the limb is softened by 1.2 px.
+
+The limb itself is not smeared, and that is deliberate. It already sits at the palette's full accent
+along its whole length, so blurring it along its own direction changes nothing, and a brighter head
+would leave the palette. Giving the planet visible motion needs new content on the limb, not a filter.
+
+
 ### Note on Omarchy's git-theme policy
 
 Omarchy does not stage `alacritty.toml`, `ghostty.conf`, `kitty.conf`,
