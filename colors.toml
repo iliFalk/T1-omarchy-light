@@ -43,6 +43,9 @@ bright_cyan = "#005D70"
 # Brand colors
 nvidia_green = "#4A7700"
 
+# Secondary accent
+accent_secondary = "#4A7700"
+
 # Hyprland window borders
 hyprland_active_border = "rgb(4A7700)"
 hyprland_inactive_border = "rgb(DDD8CA)"
