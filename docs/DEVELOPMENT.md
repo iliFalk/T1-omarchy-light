@@ -76,22 +76,13 @@ bright slots for small text.
 
 ## Backgrounds
 
-- `backgrounds/1-horisont.png` — T1-toned horizon, native 6016×3384 (default)
-- `backgrounds/ascii-art.png` — coloured ASCII halftone flow
-- `backgrounds/light.jpg` — warm T1 gradient
-- `alt-backgrounds/` — original Oxocarbon dark wallpapers and the dark-toned
-  horizon (`1-horisont-dark.png`)
+- `backgrounds/1-horisont.png` — T1-toned horizon, native 6016×3384. The theme
+  ships one wallpaper.
 
-The two horizon variants are colour-graded at the source resolution, not
-resized or upscaled: the light version maps to `#F0EDE5` and `#0762B4`, the
-dark version to `#1A1A18` and `#4694EA`, which are the T2 dark endpoints.
-
-Each regrade keeps the pixel's mix factor, so the tone curve of the source is
-untouched. `alt-backgrounds/oxcarbondark-omarchy.png` moved from `#161616` and
-`#33B1FF` to the same endpoints. The `BG*` files are original artwork and keep
-their own colours.
-
-Cycle through the theme backgrounds with `omarchy-theme-bg-next`.
+The wallpaper is colour-graded at the source resolution, not resized or
+upscaled: it maps to `#F0EDE5` and `#0762B4`. The regrade keeps the pixel's mix
+factor, so the tone curve of the source is untouched. The dark-toned
+counterpart of the same horizon ships in T2.
 
 ### Motion in the wallpaper
 

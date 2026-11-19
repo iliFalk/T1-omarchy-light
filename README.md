@@ -26,8 +26,7 @@ To keep a frozen copy instead, download the archive, unpack it into `~/.config/o
 |---|---|
 | Theme menu | `t1-omarchy-light` applies the palette to the shell, the bar, the launcher and the notifications. |
 | Terminal | Alacritty, Ghostty, Kitty and Foot take the T1 colors on the warm ground. |
-| Backgrounds | `backgrounds/` holds the three light wallpapers, `alt-backgrounds/` the dark ones from the original theme. |
-| `omarchy-theme-bg-next` | Cycles through the theme backgrounds. |
+| Backgrounds | `backgrounds/` holds one wallpaper: the light horizon. |
 | Theme switch | `backgrounds/intros/1-horisont.mp4` plays a six-second flight into the wallpaper, then the still takes over. `omarchy theme bg intro disable` turns it off. |
 
 ## Settings
@@ -35,7 +34,7 @@ To keep a frozen copy instead, download the archive, unpack it into `~/.config/o
 | File | Holds |
 |---|---|
 | `colors.toml` | The palette. Every other file derives from it. |
-| `backgrounds/`, `alt-backgrounds/` | The wallpapers the theme offers. |
+| `backgrounds/` | The wallpaper and its intro clip. |
 | `custom_theme.json` | The same palette in the theme editor's format. |
 | `waybar.css`, `mako.ini`, `walker.css`, `swayosd.css` | The bar, the notifications, the launcher and the volume overlay. |
 | `preview.png` | A composition of these surfaces on the shipped wallpaper, not a screen capture. |
